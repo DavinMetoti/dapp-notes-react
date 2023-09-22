@@ -9,10 +9,10 @@ function Navbar({ onSearch }) {
                     <span className="text-logo">DAPP NOTES</span>
                 </a>
             </div>
-            <div class="search-container">
-                <input onChange={(event) => onSearch(event)} type="text" name="search" placeholder="Search..." class="search-input" />
-                <a href="#" class="search-btn">
-                    <i class="fas fa-search"></i>
+            <div className="search-container">
+                <input onChange={(event) => onSearch(event)} type="text" name="search" placeholder="Search..." className="search-input" />
+                <a href="#" className="search-btn">
+                    <i className="fas fa-search"></i>
                 </a>
             </div>
         </nav>
